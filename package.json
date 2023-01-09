@@ -1,0 +1,27 @@
+{
+  "name": "@team23/commitlint-config",
+  "version": "0.0.1",
+  "description": "Standard shareable config for commitlint",
+  "keywords": [
+    "commitlint",
+    "config",
+    "team23",
+    "conventional-commits"
+  ],
+  "author": "TEAM23",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/team23/commitlint-config"
+  },
+  "main": "src/main.js",
+  "files": [
+    "src/main.js"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "17.3.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "scripts": {}
+}
