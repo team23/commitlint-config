@@ -1,10 +1,8 @@
 # commitlint-config
 
-TEAM23 configuration for [commitlint](https://commitlint.js.org/) enforcing our commit message standard.
+TEAM23 configuration for [commitlint](https://commitlint.js.org/) enforcing our [commit standard](https://confluence.team23.de/display/AP/Commit+Standard).
 
-If you're using [pre-commit](https://pre-commit.com/), chances are that you're also using [commitlint](https://commitlint.js.org/) to make sure all your commit messages adhere to our [conventional commit standard](https://confluence.team23.de/display/AP/Commit+Standard). 
-
-## How to use
+## How to use with [pre-commit](https://pre-commit.com/)
 
 ### Create config file
 
