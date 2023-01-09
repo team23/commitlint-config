@@ -1,7 +1,7 @@
 const config = require('@commitlint/config-conventional');
 
-// add 'sec' type
-const types = config.rules['type-enum'][2].concat(['sec']);
+// add 'sec' and 'release' types
+const types = config.rules['type-enum'][2].concat(['sec', 'release']);
 
 module.exports = {
     // See https://github.com/conventional-changelog/commitlint/blob/master/%40commitlint/config-conventional/index.js
