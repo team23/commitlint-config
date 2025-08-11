@@ -1,6 +1,6 @@
 {
   "name": "@team23/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standard shareable config for commitlint",
   "keywords": [
     "commitlint",
