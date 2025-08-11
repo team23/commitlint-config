@@ -9,7 +9,7 @@ TEAM23 configuration for [commitlint](https://commitlint.js.org/) enforcing our 
 Add a file `commitlint.config.js` to the root directory of your project with the following content: 
 
 ```js
-module.exports = {
+export default {
     extends: ['@team23/commitlint-config'],
 };
 ```
