@@ -1,4 +1,4 @@
-import * as config from '@commitlint/config-conventional';
+import config from '@commitlint/config-conventional';
 
 // add 'sec' and 'release' types
 const types = config.rules['type-enum'][2].concat(['sec', 'release']);
