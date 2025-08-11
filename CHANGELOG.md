@@ -1,3 +1,11 @@
+# 1.0.1
+
+## Breaking Changes
+- Migrate package to ESM
+
+## Features
+- update `@commitlint/config-conventional` to version 19
+
 # 1.0.0
 
 - add documentation
