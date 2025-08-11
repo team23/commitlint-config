@@ -1,7 +1,16 @@
 {
   "name": "@team23/commitlint-config",
+  "type": "module",
   "version": "1.0.2",
   "description": "Standard shareable config for commitlint",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/team23/commitlint-config"
+  },
   "keywords": [
     "commitlint",
     "config",
@@ -11,20 +20,6 @@
   ],
   "author": "TEAM23",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/team23/commitlint-config"
-  },
-  "main": "src/main.js",
-  "files": [
-    "src/main.js"
-  ],
-  "exports": {
-    ".": {
-      "import": "./src/main.js"
-    }
-  },
-  "type": "module",
   "dependencies": {
     "@commitlint/config-conventional": "19.8.1"
   },

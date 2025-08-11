@@ -1,3 +1,3 @@
-export default {
-    extends: ['@team23/commitlint-config'],
-};
+import config from './index.js';
+
+export default config;

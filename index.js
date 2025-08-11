@@ -3,7 +3,7 @@ import config from '@commitlint/config-conventional';
 // add 'sec' and 'release' types
 const types = config.rules['type-enum'][2].concat(['sec', 'release']);
 
-const Configuration = {
+export default {
     extends: ['@commitlint/config-conventional'],
     // Own rules
     rules: {
@@ -15,5 +15,3 @@ const Configuration = {
         'type-enum': [2, 'always', types],
     },
 };
-
-export default Configuration;
