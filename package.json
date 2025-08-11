@@ -1,7 +1,7 @@
 {
   "name": "@team23/commitlint-config",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Standard shareable config for commitlint",
   "main": "index.js",
   "files": [
