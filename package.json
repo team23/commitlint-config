@@ -1,30 +1,30 @@
 {
-  "name": "@team23/commitlint-config",
-  "type": "module",
-  "version": "1.0.3",
-  "description": "Standard shareable config for commitlint",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/team23/commitlint-config.git"
-  },
-  "keywords": [
-    "commitlint",
-    "config",
-    "team23",
-    "conventional-commits",
-    "esm"
-  ],
-  "author": "TEAM23",
-  "license": "MIT",
-  "dependencies": {
-    "@commitlint/config-conventional": "19.8.1"
-  },
-  "devDependencies": {
-    "@commitlint/types": "^19.8.1"
-  },
-  "scripts": {}
+    "name": "@team23/commitlint-config",
+    "type": "module",
+    "version": "1.0.3",
+    "description": "Standard shareable config for commitlint",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/team23/commitlint-config.git"
+    },
+    "keywords": [
+        "commitlint",
+        "config",
+        "team23",
+        "conventional-commits",
+        "esm"
+    ],
+    "author": "TEAM23",
+    "license": "MIT",
+    "dependencies": {
+        "@commitlint/config-conventional": "19.8.1"
+    },
+    "devDependencies": {
+        "@commitlint/types": "^19.8.1"
+    },
+    "scripts": {}
 }
