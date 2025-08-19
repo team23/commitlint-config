@@ -25,7 +25,7 @@ Next, add the pre-commit hook for commitlint to your pre-commit config (`.pre-co
       - id: commitlint
         stages: [commit-msg]
         additional_dependencies:
-          - "@team23/commitlint-config@1.0.0"
+          - "@team23/commitlint-config@1.0.4"
 ```
 
 Specify the version of `@team23/commitlint-config` you want to use in the `additional_dependencies`.
