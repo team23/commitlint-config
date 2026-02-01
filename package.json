@@ -21,7 +21,7 @@
     "author": "TEAM23",
     "license": "MIT",
     "dependencies": {
-        "@commitlint/config-conventional": "20.3.0"
+        "@commitlint/config-conventional": "20.4.0"
     },
     "devDependencies": {
         "@commitlint/types": "^20.0.0"
